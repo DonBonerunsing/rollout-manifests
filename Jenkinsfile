@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'danny/argo-rollout-bluegreen'
+    env.IMAGE = 'danny1dockerhub/argo-rollout-bluegreen'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/DonBonerunsing/rollout-manifests.git'  
