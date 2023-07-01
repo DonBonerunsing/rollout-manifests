@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: danny/argo-rollout-bluegreen:6
+          image: danny1dockerhub/argo-rollout-bluegreen:6
           ports:
             - name: http
               containerPort: 3000
